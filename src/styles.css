@@ -1,0 +1,25 @@
+/* You can add global styles to this file, and also import other style files */
+
+.grid {
+background-color: blueviolet;
+
+}
+
+.button-color{
+  background: orange;
+  border-color: orange;
+  float: right;
+  color: blueviolet;
+}
+
+.button-color:hover {
+  background: blueviolet;
+  border-color: blueviolet;
+  transition: all 1s;
+  transform: scale(1.1);
+  color: orange;
+}
+
+label {
+  text-size-adjust: 20px;
+}

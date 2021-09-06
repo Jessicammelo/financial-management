@@ -1,0 +1,56 @@
+<div class="container px-4" style="margin-top: 150px;">
+  <div>
+    <label>
+      Cadastro Pessoa
+    </label>
+    <div [formGroup]="formGroup" class="row g-2">
+      <div class="col-6 grid">
+        <div class="p-3 border bg-light">
+          <input type="text" formControlName="name" class="form-control" placeholder="Nome" aria-label="First name">
+        </div>
+      </div>
+      <div class="col-6 grid">
+        <div class="p-3 border bg-light">
+          <input type="text" formControlName="lastName" class="form-control" placeholder="Sobrenome"
+            aria-label="First name">
+        </div>
+      </div>
+      <div class="col-6 grid">
+        <div class="p-3 border bg-light">
+          <p-calendar formControlName="birthDate" styleClass="w-100" appendTo="body" placeholder="Data nasc." aria-label="First name">
+          </p-calendar>
+        </div>
+      </div>
+      <div class="col-6 grid">
+        <div class="p-3 border bg-light">
+          <input type="text" formControlName="profession" class="form-control" placeholder="Profissão"
+            aria-label="First name">
+        </div>
+      </div>
+      <div class="col-6 grid">
+        <div class="p-3 border bg-light">
+          <input type="text" formControlName="document" class="form-control" placeholder="Documento"
+            aria-label="First name">
+        </div>
+      </div>
+      <div class="col-6 grid">
+        <div class="p-3 border bg-light">
+          <input type="text" formControlName="email" class="form-control" placeholder="E-mail" aria-label="First name">
+        </div>
+      </div>
+      <div class="col-6 grid">
+        <div class="p-3 border bg-light">
+          <input type="text" formControlName="address" class="form-control" placeholder="Endereço"
+            aria-label="First name">
+        </div>
+      </div>
+      <div class="col-6 grid">
+        <div class="p-3 border bg-light">
+          <input type="text" formControlName="zipCode" class="form-control" placeholder="CEP" aria-label="First name">
+        </div>
+      </div>
+    </div>
+    <br>
+    <button type="button" class="button-color">Salvar</button>
+  </div>
+</div>
